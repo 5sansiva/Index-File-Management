@@ -1,0 +1,3 @@
+4/28/2025 3:11 PM
+So my understanding for this project is that I will be making an interactive program that creates and manages index files. Those index files will contain a B tree. For this project, I am going to implement this project in python. It will be interactive in the sense that the user can input various commands as arguments which performs operations on an index file that is represented by the B tree. I understand that this project will be implemented in one file which is the index file whihc contains all the operations to perform and such. So far, this is my understanding, I shall read more and decide on how to structure my project in another session.
+End session - 3:15 PM
