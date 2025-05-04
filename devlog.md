@@ -10,3 +10,6 @@ So far, I am still trying to figure out how the structure should go. Because it 
 
 12:17 AM
 I have added the code for command input and then filled out the fileManager class. Now I have to add some speciics to that class and adjust.
+
+End session - 12:18 AM - 5/4/2025
+So for this session, it was mainly to just lay out a basic structure and understand what this project was going to be about. Now I understand that it is a file management system and that I will manage a bunch of index files and each files contains information stored in a B tree. It is pretty easy to think about but for some reason it was weird for me to think about when reading it so I get it now. Didn't have any major issues with the project so far so should be fine. Next session, I will go through each of the commands and get them working, mainly focusing on the create command.
