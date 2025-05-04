@@ -4,3 +4,9 @@ End session - 3:15 PM
 
 5/3/2025 11:43 PM
 So from before to this session, I haven't thought of anything new in terms of the project with overall development and such. I still probably want to read more and then start working on some basic stuff for the project to really get the gears grinding. This session, I plan on laying out the structure, and user interaction for this project with the command line prompts and such and see where I can go from there. Nothing too crazy or strict in terms of goals, just getting a feel for the project overall.
+
+12:07 AM
+So far, I am still trying to figure out how the structure should go. Because it is within a B tree, like do I create files which store B trees and all these commands essentially find files and such and perform stuff with that. It is rather confusing but it shouldn't be too bad.
+
+12:17 AM
+I have added the code for command input and then filled out the fileManager class. Now I have to add some speciics to that class and adjust.
