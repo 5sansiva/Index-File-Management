@@ -16,3 +16,15 @@ So for this session, it was mainly to just lay out a basic structure and underst
 
 Start session 5/4/2025 - 8:28 PM
 From before, I have a better understanding on how the project is supposed to be. It has to include a B tree in each index file and certain actions have to be made from that. This session, I plan to work on the create choice that the user has for files and also make the B tree class and such.
+
+9:23 PM
+So far I am seeing how the index file will need to be created and such and how the storage works. It is still a bit confusing but nothing too bad.
+
+10:28 PM
+Went to go eat dinner so break
+
+10:45 PM
+So I updated to include the index file sizes and such. Still kinda confused on how it is supposed to be with memory so I am looking into that more.
+
+End session 11:04 PM 5/4/2025
+So for this session. I ended up finishing the create function. I haven't tested it yet and I am still wondering how the memory stuff needs to be managed so I will be working slowly towards that. Next sesssion I plan on finishing more of the commands and just get a better understanding and such.
