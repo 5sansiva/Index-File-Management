@@ -40,3 +40,9 @@ So this session wasn't anything much. I already got an idea for how to do the ma
 
 9:53 AM - 5/10/2025
 So just woke up and I am beginning to pick up from where I left off yesterday which is to finish the Btree class. This session I wil finish the Btree class and then see how to connect and test the flow of the program during execution.
+
+11:04 AM
+Had to go eat breakfast before. I did the Btree class. Need to do the Btree node.
+
+11:40 PM - 5/10/2025 - End session
+I stopped working, I forgot to log it. So this session I finished the main webpage and I also worked on the btree file and I finished the Btree file and each commands. I believe I need a BTree node so I might have to add that as well. Next session, is to go through testing and there will be some specifics with that. I haven't really tested my code when coding so I will need to edit that.
