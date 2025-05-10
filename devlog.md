@@ -31,3 +31,9 @@ So for this session. I ended up finishing the create function. I haven't tested 
 
 Start session 12:02 AM 5/10/2025
 So for this session, I haven't had many new thoughts on the project as I was dealing with other exams and work so I haven't been thinking about the project as much but I get the premise of the project so it hasn't been bad. This session, I look to finish that create function while detailing my work thoughout this sesssion.
+
+12:57
+Went through all the methods in the main and have filled those out. Now its to adjust the arugment becuase I can't use standard input.
+
+1:07 AM End Session 5/10/2025
+So this session wasn't anything much. I already got an idea for how to do the main method so I just finished that today. It is late so I haven't provided much detail. In my coming logs, I can provide much more. I need to start doing the b tree file and then connect these files together. That is my future goal.
