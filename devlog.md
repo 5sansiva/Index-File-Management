@@ -37,3 +37,6 @@ Went through all the methods in the main and have filled those out. Now its to a
 
 1:07 AM End Session 5/10/2025
 So this session wasn't anything much. I already got an idea for how to do the main method so I just finished that today. It is late so I haven't provided much detail. In my coming logs, I can provide much more. I need to start doing the b tree file and then connect these files together. That is my future goal.
+
+9:53 AM - 5/10/2025
+So just woke up and I am beginning to pick up from where I left off yesterday which is to finish the Btree class. This session I wil finish the Btree class and then see how to connect and test the flow of the program during execution.
