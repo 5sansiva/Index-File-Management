@@ -28,3 +28,6 @@ So I updated to include the index file sizes and such. Still kinda confused on h
 
 End session 11:04 PM 5/4/2025
 So for this session. I ended up finishing the create function. I haven't tested it yet and I am still wondering how the memory stuff needs to be managed so I will be working slowly towards that. Next sesssion I plan on finishing more of the commands and just get a better understanding and such.
+
+Start session 12:02 AM 5/10/2025
+So for this session, I haven't had many new thoughts on the project as I was dealing with other exams and work so I haven't been thinking about the project as much but I get the premise of the project so it hasn't been bad. This session, I look to finish that create function while detailing my work thoughout this sesssion.
