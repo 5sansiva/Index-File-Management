@@ -49,3 +49,33 @@ I stopped working, I forgot to log it. So this session I finished the main webpa
 
 7:02 PM - 5/10/2025 Start Session
 Ok so from last sesssion, I didn't really think of anything. I will continue working from where I left of which is on the BTree file, so finishing up the Btree and the node for the Btree. I do not have any more real faults in my understanding, besides maybe the memory aspect of the assignment as organizing each node in memory might be a bit of a tricky part but it shouldn't be too bad.
+
+8:15 PM
+So I was working but kinda got distracted just reading the textbook and such so I will lock back in.
+
+8:32 PM
+So I was going over the previous header information and such and how to organize it and the nodes and such.
+
+8:46 PM
+Ok so I think I am done with the btree.py method. I added the Btree node method along with the overall Btree method.
+
+9:03 PM
+When I am running this file, the create is working properly as a new test.idx has been created but when I try and insert a file with a key and value pair, it isn't working. There is an issue that keeps saying that the insert only takes in 2 positional arugments which is how I set it up but 3 were given yet I do not know how that is possible.
+
+10-11 PM
+I took a break in between to go eat dinner and such. I am still stuck on that issue.
+
+11:15 PM
+So I figured out that other issue from before, I essentially changed where I inserted part of btree.insert(key, value) to be btree.insert(key = key, value = value). Its a small issue and I just found that online as a potential fix for arugment issues so I decided to do it and it ended up working.
+
+11:25 PM
+So the testing inserts properly but it is not printing properly so I have to take a look at that and see there the issue might be.
+
+11:45 PM
+So I found out that the inserts might not being inserting properly as when I inputted the .idx file, it should have worked but it didn't and there were just nulls so I have to fix that now. Also, the print isn't working and such.
+
+12:00 PM
+Ok so I ended up adding the line btree.close() after inserting which ended up fixing that issue.
+
+12:37 PM 5/11/2025 End Session
+Alright so from this session, I was able to test my program and I ended up fixing a couple minor issues when it comes to arguments along with overall performance of the tool including printing, and inserting keys and values into the system. Next session, I will probably work on general user flow to make sure everything goes smoothly and try and perform fuzzing so everything works for this project. I should probably be done and ready to turn in after next work session.
