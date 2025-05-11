@@ -46,3 +46,6 @@ Had to go eat breakfast before. I did the Btree class. Need to do the Btree node
 
 11:40 PM - 5/10/2025 - End session
 I stopped working, I forgot to log it. So this session I finished the main webpage and I also worked on the btree file and I finished the Btree file and each commands. I believe I need a BTree node so I might have to add that as well. Next session, is to go through testing and there will be some specifics with that. I haven't really tested my code when coding so I will need to edit that.
+
+7:02 PM - 5/10/2025 Start Session
+Ok so from last sesssion, I didn't really think of anything. I will continue working from where I left of which is on the BTree file, so finishing up the Btree and the node for the Btree. I do not have any more real faults in my understanding, besides maybe the memory aspect of the assignment as organizing each node in memory might be a bit of a tricky part but it shouldn't be too bad.
