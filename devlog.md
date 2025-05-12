@@ -100,3 +100,6 @@ So I looked at the video and found that for duplicates, I just need to print a s
 
 10:27 PM
 So I did more testing and I also ended up adding the errors to be more robust at the end inside the main method so that is done.
+
+10:38 PM 5/11/2025 - End Session
+Alright so I have finished the project. I have gone through and checked through each of the choices and all of them work and I have done rigerous testing. This project was rather confusing due to the Btree and memory aespects but it wasn't really bad and I learned a lot.
