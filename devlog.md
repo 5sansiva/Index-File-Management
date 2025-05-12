@@ -82,3 +82,9 @@ Alright so from this session, I was able to test my program and I ended up fixin
 
 8:06 PM 5/11/2025 Start session
 Alright so from last session, I got the program working and such. Now today I am just going to perform testing to make sure that this is running properly and such. I will probably submit at the end of this session.
+
+8:30 PM
+So I ran a bunch of insert tests along with printouts, its working fine so there is really no issue there.
+
+9:18 PM
+I came across another error. When I upload a csv file and then load that into an idx file, it loads everything fine and it prints the proper message although when I print the idx file, then it isn't working properly as it is not printing everything properly.
