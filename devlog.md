@@ -79,3 +79,6 @@ Ok so I ended up adding the line btree.close() after inserting which ended up fi
 
 12:37 PM 5/11/2025 End Session
 Alright so from this session, I was able to test my program and I ended up fixing a couple minor issues when it comes to arguments along with overall performance of the tool including printing, and inserting keys and values into the system. Next session, I will probably work on general user flow to make sure everything goes smoothly and try and perform fuzzing so everything works for this project. I should probably be done and ready to turn in after next work session.
+
+8:06 PM 5/11/2025 Start session
+Alright so from last session, I got the program working and such. Now today I am just going to perform testing to make sure that this is running properly and such. I will probably submit at the end of this session.
