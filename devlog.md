@@ -97,3 +97,6 @@ So I am thinking about duplicates and whether it needs to be rejected or overwri
 
 10:04 PM
 So I looked at the video and found that for duplicates, I just need to print a statement saying the key exists and reject the incoming request. That is what I added to the project for now. I also adjusted my print statements as well.
+
+10:27 PM
+So I did more testing and I also ended up adding the errors to be more robust at the end inside the main method so that is done.

@@ -129,16 +129,22 @@ def main():
                 fm.create_index_file(args[1])
 
             elif command == "insert" and len(args) == 4:
-                #print(f"Using BTree class from: {BTree.__module__}.{BTree.__name__}")
-                
                 filename = args[1]
-                key = int(args[2])
-                value = int(args[3])
+                try:
+                    key = int(args[2])
+                    value = int(args[3])
+                except ValueError:
+                    print(f"Error: Insert arguments must be integers. Received: key='{args[2]}', value='{args[3]}'")
+                    continue
                 fm.insert_into_index_file(filename, key, value)
 
             elif command == "search" and len(args) == 3:
                 filename = args[1]
-                key = int(args[2])
+                try:
+                    key = int(args[2])
+                except ValueError:
+                    print(f"Error: Search key must be an integer. Received: '{args[2]}'")
+                    continue
                 fm.search_in_index_file(filename, key)
 
             elif command == "load" and len(args) == 3:
@@ -149,18 +155,18 @@ def main():
 
             elif command == "extract" and len(args) == 3:
                 fm.extract_file(args[1], args[2])
+
             elif command == "exit":
                 print("Exiting the program.")
-                break   
-            else:
-                print("Invalid command or incorrect number of arguments.")
+                break
 
-        except ValueError:
-            print("Error: Key and value must be integers.")
-        except IndexError:
-            print("Error: Missing arguments for the command.")
+            else:
+                print(f"Invalid command or incorrect number of arguments: {' '.join(args)}")
+
+        except FileNotFoundError as e:
+            print(f"File error: {e.filename} not found.")
         except Exception as e:
-            print(f"Unexpected error: {e}")
+            print(f"Unexpected error: {e.__class__.__name__}: {e}")
 
 if __name__ == "__main__":
     main()
