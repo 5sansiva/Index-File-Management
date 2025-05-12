@@ -39,7 +39,7 @@ class FileManager:
         btree = BTree(filename)
         btree.insert(key=key, value=value)
         btree.close()
-        print(f"Inserted key={key}, value={value} into '{filename}'.")
+        
 
     #Used to search for a key in the index file
     def search_in_index_file(self, filename, key):
@@ -54,7 +54,7 @@ class FileManager:
         else:
             print(f"Key '{key}' not found in '{filename}'.")
     
-    #Used to load key/value pairs from a CSV file into the index file
+    # Used to load key/value pairs from a CSV file into the index file
     def load_file(self, filename, csv_file):
         if not os.path.exists(filename):
             print(f"Error: Index file '{filename}' does not exist.")
@@ -71,7 +71,9 @@ class FileManager:
                     key = int(parts[0])
                     value = int(parts[1])
                     btree.insert(key, value)
+        btree.close()  # ✅ Flush all changes after entire file is loaded
         print(f"Loaded all entries from '{csv_file}' into '{filename}'.")
+
 
     #Used to print all key/value pairs in the index file
     def print_index_file(self, filename):

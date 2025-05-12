@@ -139,7 +139,14 @@ class BTree:
 
     def _insert_non_full(self, node, key, value):
         i = node.num_keys - 1
-        if node.children[0] == 0:  # leaf
+
+        # Check for duplicate key in current node
+        for j in range(node.num_keys):
+            if node.keys[j] == key:
+                print(f"Key {key} already exists in the index.")
+                return  # Reject the insert
+
+        if node.children[0] == 0:  # Leaf node
             while i >= 0 and key < node.keys[i]:
                 node.keys[i + 1] = node.keys[i]
                 node.values[i + 1] = node.values[i]
@@ -148,6 +155,8 @@ class BTree:
             node.values[i + 1] = value
             node.num_keys += 1
             node.dirty = True
+            
+            print(f"Inserted key={key}, value={value} into '{filename}'.")
         else:
             while i >= 0 and key < node.keys[i]:
                 i -= 1
@@ -159,6 +168,7 @@ class BTree:
                     i += 1
                 child = self._read_node(node.children[i])
             self._insert_non_full(child, key, value)
+
 
     def _split_child(self, parent, i, child):
         new_block_id = self._get_next_block_id()

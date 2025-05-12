@@ -88,3 +88,12 @@ So I ran a bunch of insert tests along with printouts, its working fine so there
 
 9:18 PM
 I came across another error. When I upload a csv file and then load that into an idx file, it loads everything fine and it prints the proper message although when I print the idx file, then it isn't working properly as it is not printing everything properly.
+
+9:38 PM
+Alright so the issue was similar to an issue before with the insert. I forgot to do btree.close() in order to flush all changes.
+
+9:50 PM
+So I am thinking about duplicates and whether it needs to be rejected or overwritten when duplicates occur so now I am questioning that.
+
+10:04 PM
+So I looked at the video and found that for duplicates, I just need to print a statement saying the key exists and reject the incoming request. That is what I added to the project for now. I also adjusted my print statements as well.
